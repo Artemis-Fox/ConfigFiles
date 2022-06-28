@@ -1,0 +1,15 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# editing the prompt character
+[character]
+error_symbol = "[](bold red)"
+
+# makes the prompt a single line instead of two
+[line_break]
+disabled = true
+
+# Disable Packages
