@@ -1,0 +1,28 @@
+# Aliases for emacs commands
+alias ff find-file $1
+
+
+# Aliasing standard shell commands to better emacs alternatives
+alias less view-file $1
+
+
+# Merge Xresources
+alias merge xrdb -merge ~/.Xresources
+
+# Confirm before overwriting something
+alias cp cp -i $1
+alias mv mv -i $1
+alias rm rm -i $1
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias v='nvim'
+alias sv='sudo nvim'
+alias icat='kitten icat'
+alias weather='curl http://wttr.in/glenrock'
+alias sudo='doas'
+alias sudoeit='doas rnano'
+alias files='yazi'
+
+bind 'set show-all-if-ambiguous on'
+bind 'TAB:menu-complete'
